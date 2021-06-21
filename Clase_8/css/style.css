@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.encabezado {
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-position: center; 
+    height:200px;
+}
+.encabezado p{
+    padding-top: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a3a3a;
+}

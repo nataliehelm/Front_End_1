@@ -4,72 +4,84 @@
     <meta charset="utf-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script 
+        src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+        data-auto-a11y="true"
+    ></script>
+    <link href="css/style.css" rel="stylesheet">
     <title>Petshop</title>
 </head>
 <body>
-    <section>
-        <header style="background-color: black; padding-bottom: 4px; ">
-            <span style="color: white; padding-left: 5%;">Grandes ofertas en comederos</span>
-            <span style="color: white; float: right; padding-right: 50px;">ARG$ <img src="img/Vector 1.png"> </span>     
-            <span style="color: white; float: right; padding-right: 15px;">Español <img src="img/Vector 1.png"> </span>
-        </header>
-        <nav style="background-color:#F0A83E; padding-top: 20px; padding-bottom: 20px;" >
-            <span style="padding-left: 3%;"><img src="img/Logo.png" alt="Logo de la tienda"></span>
-            <span style="float: right; color: white; padding-right: 40px;"><img src="img/pawprint 1.png"> Contactanos</span>
-            <span style="float: right; color: white; padding-right: 20px;"><img src="img/pawprint 1.png"> Nosotros</span>
-            <span style="float: right; color: white; padding-right: 20px;"><img src="img/pawprint 1.png"> Pets</span>
-            <span style="float: right; color: white; padding-right: 20px;"><img src="img/pawprint 1.png"> Categorías</span>
-        </nav>
-        <main>
-            <section id="banner">
-                <img src="img/Slide.png" width="100%">
+    <header>
+        <div class ="tabulado">Grandes ofertas en comederos </div>
+        <div>Español <i class="fas fa-angle-down"></i></div>
+        <div>ARG$ <i class="fas fa-angle-down"></i></div>
+    </header>
+    <nav>
+        <div class="logo">
+            <span style="padding-left: 3%;"><a href="index.html"><img src="img/Logo.png" alt="Logo de la tienda"></a></span>
+        </div>
+            <div><i class="fas fa-paw"></i> Contactanos</div>
+            <div><i class="fas fa-paw"></i> Nosotros</div>
+            <div><i class="fas fa-paw"></i> Pets</div>
+            <div><i class="fas fa-paw"></i> Categorías</div>
+        </div>
+    </nav>
+    <main>
+        <section id="banner">
+            <img src="img/Slide.png" width="100%">
+        </section>
+        <section id="destacados">
+            <div>
+                <img src="img/pawprint_naranja.png">
+            </div>
+            <div>
+                <h1>Productos Destacados</h1>
+                <span>Comederos</span>
+                <span>-</span>
+                <span>Accesorios</span>
+                <span>-</span>
+                <span>Comida</span><br><br>
+            </div>
+            <div>
+                <img src="img/Churrasquito.png">
+                <img src="img/Comedero.png">
+                <img src="img/Huesito juguete.png">
+            </div>
+        </section>
+        <section id="contacto">
+            <div>
+                <h2>Contactanos</h2>
+                <div><img src="img/Nombre_apellido.png"></div>
+                <div><img src="img/correo.png"></div>
+                <div><img src="img/telefono.png"></div>
+                <div class="botones"><img src="img/reset.png"><img src="img/enviar.png">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section id="newsletter">
+                <div>
+                    <span><i class="far fa-envelope"></i> Suscríbete para más novedades</span>
+                </div>
+                <div class="derecha">
+                    <img src="img/suscribirme_input.png">
+                </div>
             </section>
-            <section id="destacados" style="padding-top: 20px;">
-                <div align="center">
-                    <img src="img/pawprint_naranja.png">
+            <section id="pie">
+                <div>
+                    <img src="img/location.png"><br>
+                    <img src="img/phone.png"><br>
+                    <img src="img/email.png">
                 </div>
-                <div  align="center">
-                    <h1 style="color: #3C2313; font-size: 300%;">Productos Destacados</h1>
-                </div>
-                <div align="center" style="padding-bottom: 20px;">
-                    <span style="color: #666666;">Comederos</span>
-                    <span style="padding-left: 10px; color: #666666;">-</span>
-                    <span style="padding-left: 10px; color: #666666;">Accesorios</span>
-                    <span style="padding-left: 10px; color: #666666;">-</span>
-                    <span style="padding-left: 10px; color: #666666;">Comida</span>
-                </div>
-                <div align="center">
-                    <img src="img/Churrasquito.png" style="padding-right: 20px;">
-                    <img src="img/Comedero.png" style="padding-right: 20px;">
-                    <img src="img/Huesito juguete.png" style="padding-right: 20px;">
-                </div>
-                <section id="contacto">
-                    <div align="center" style="padding-bottom: 50px;">
-                        <h1 style="color: #3C2313; font-size: 200%;">Contactanos</h1>
-                        <div align="center"><img src="img/Nombre_apellido.png" style="padding-bottom: 10px;">
-                        </div>
-                        <div align="center"><img src="img/correo.png" style="padding-bottom: 10px;">
-                        </div>
-                        <div align="center"><img src="img/telefono.png" style="padding-bottom: 20px;">
-                        </div>
-                        <div align="center"><img src="img/reset.png" style="padding-right: 10px;"><img src="img/enviar.png">
-                        </div>
-                    </div>
-                </section>
-                <footer>
-                    <section id="newsletter" style="margin-bottom: 0px;">
-                        <div>
-                            <img src="img/Suscribcion.png" width="100%" >
-                        </div>
-                    </section>
-                    <section id="pie" style="margin-top: 0px;">
-                        <div>
-                            <img src="img/Footer.png" width="100%">
-                        </div>
-                    </section>
-                </footer>
+                <div id="pie-derecha"><img src="img/logo2.png"></div>
             </section>
-        </main>
-    </section>
+            <section id="copy-right">
+                <span>
+                    Todos los derechos reservados Front End
+                </span>
+            </section>
+        </footer>
+    </main>
 </body>
 </html>
