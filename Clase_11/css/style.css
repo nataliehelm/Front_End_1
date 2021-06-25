@@ -30,14 +30,14 @@ main {
     justify-content: space-around;
 }
 #delivery {
-    background-image: url('/Clase_11/img/delivery.png');
+    background-image: url('../img/delivery.png');
     background-repeat: no-repeat;
     border-radius: 10px;
     height: 350px;
     width: 430px;
 }
 #podio {
-    background-image: url('/Clase_11/img/podio.png');
+    background-image: url('../img/podio.png');
     background-repeat: no-repeat;
     border-radius: 10px;
     height: 350px;
