@@ -1,0 +1,60 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #E5E5E5;
+}
+header {
+    background-color: #000000;
+    box-shadow: 0 6px 10px gray;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0;
+}
+#nav {
+    color: #ffffff;
+}
+#nav span {
+    padding-right: 10px;
+}
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#delivery {
+    background-image: url('/Clase_11/img/delivery.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 350px;
+    width: 430px;
+}
+#podio {
+    background-image: url('/Clase_11/img/podio.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 350px;
+    width: 430px;
+}
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    line-height: 30px;
+    justify-content: space-between;
+}
+footer div{
+    align-self: center;
+}
+#logo-footer {
+    padding-right: 30px;
+}

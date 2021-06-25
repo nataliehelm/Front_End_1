@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+#top-bar {
+    background-color: #1CD1B0;
+    height: 38px;
+    padding-top: 15px;
+}
+header span {
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+header h1 {
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+#top-bar span {
+    align-self: center;
+}
+#title {
+    background-color: #00669F;
+    height: 101px;
+    box-shadow: 0 6px 10px gray;
+}
+#container {
+    padding-top: 270px;
+    position: relative;
+    width: 300px;
+
+}
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 900px;
+}
+.info-card1 {
+    position: relative;
+    /* left: 40px;     */
+}
+.heart {
+    position: relative;
+    left: 15px;
+    top: 50px;
+    z-index: 50;
+}
+.photo {
+    position: relative;
+    bottom: 70px;
+    left: 86px;
+    z-index: 10;
+}
+.description {
+    background-color: #f3f3f3;
+    width: 274px;
+    height: 236px;
+    padding: 80px 13px 20px;
+    position: relative;
+    bottom: 150px;
+    z-index: -10;
+    box-shadow: 0 6px 10px gray;
+    margin: 0;
+}
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.about {
+    position: relative;
+    bottom: 360px;
+    padding: 0 13px 0;
+}
+.boton {
+    position: relative;
+    left: 85px;
+    bottom: 360px;
+}
+
+.info-card2 {
+    position: relative;
+    left: 400px;
+    bottom: 899px;
+}
+.info-card3 {
+    position: relative;
+    left: 800px;
+    bottom: 1798px;
+}
+footer {
+    background-color: #00669F;
+    max-height: 51px;
+    color: white;
+    padding: 10px 30px 10px;
+}
