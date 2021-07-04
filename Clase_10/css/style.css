@@ -32,41 +32,50 @@ header h1 {
     box-shadow: 0 6px 10px gray;
 }
 #container {
-    padding-top: 270px;
-    position: relative;
-    width: 300px;
-
+    padding-top: 200px;
+    width: 80%;
+    min-height: 800px;
+    margin: 0 auto;
+    display: inline-flex;
 }
 main {
     margin-left: 20%;
     margin-right: 20%;
-    height: 900px;
+    min-height: 450px;
 }
 .info-card1 {
+    background-color: #f3f3f3; 
+    box-shadow: 0 6px 10px gray;
+    left: 40px;
+    max-width: 300px;   
+    max-height: 529px; 
+    width: 100%;
+    margin: 20px;
+}
+.card-header {
     position: relative;
-    /* left: 40px;     */
 }
 .heart {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+.card-content {
     position: relative;
-    left: 15px;
-    top: 50px;
-    z-index: 50;
+    height: 336px;
+
 }
 .photo {
-    position: relative;
-    bottom: 70px;
-    left: 86px;
-    z-index: 10;
+    position: absolute;
+    top: 120px;
+    left: 84px;
 }
 .description {
-    background-color: #f3f3f3;
-    width: 274px;
-    height: 236px;
-    padding: 80px 13px 20px;
-    position: relative;
-    bottom: 150px;
-    z-index: -10;
-    box-shadow: 0 6px 10px gray;
+    
+    /* max-width: 274px;
+    height: 236px; */
+    padding: 60px 13px 20px;
+    /* position: absolute; */
     margin: 0;
 }
 h2 {
@@ -75,29 +84,41 @@ h2 {
     text-align: center;
 }
 .about {
-    position: relative;
-    bottom: 360px;
-    padding: 0 13px 0;
+    position: absolute;
+    /* bottom: 380px; */
+    padding: 0 20px;
+    top: 100px;
+    bottom: 40px;
 }
 .boton {
-    position: relative;
+    position: absolute;
     left: 85px;
-    bottom: 360px;
+    bottom: 30px
 }
 
 .info-card2 {
-    position: relative;
-    left: 400px;
-    bottom: 899px;
+    background-color: #f3f3f3; 
+    box-shadow: 0 6px 10px gray;
+    left: 40px;
+    max-width: 300px;   
+    max-height: 529px; 
+    width: 100%;
+    margin: 20px;
 }
 .info-card3 {
-    position: relative;
-    left: 800px;
-    bottom: 1798px;
+    background-color: #f3f3f3; 
+    box-shadow: 0 6px 10px gray;
+    left: 40px;
+    max-width: 300px;   
+    max-height: 529px; 
+    width: 100%;
+    margin: 20px;
 }
 footer {
     background-color: #00669F;
-    max-height: 51px;
     color: white;
-    padding: 10px 30px 10px;
+    padding: 10px 30px 20px;
+    text-align: center;
+    width: 100%;
+
 }
