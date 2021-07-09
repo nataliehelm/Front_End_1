@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <span>20% de descuento en todos los productos!</span>
+        </div>
+        <div id="title">
+            <a href="index.html"><img src="img/logo.png"></a><span>Nombre Tienda</span>
+        </div>
+    </header>
+    <main>
+        <section id="cuerpo">
+            <div class="container">
+                <form action="register" method="POST">
+                    <p><h1>Registro</h1></p>
+                    <p><input type="text" name="user" id="user" placeholder="Nombre y Apellido"></p>
+                    <p><input type="email" name="email" id="email" placeholder="Correo Electrónico"></p>
+                    <p><input type="password" name="pass" id="password" placeholder="Contraseña"></p>
+                    <select name="pais" id="pais">
+                        <option value="" disabled selected>País</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                    <p><button class="reset-btn" type="reset">Resetear</button><button class="register-btn"type="submit">Registrar</button></p>
+                </form>
+                <div class="new-account">
+                    <span>¿Ya tenés una cuenta? <a href="login.html">Ingresá</a></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright"><span>Todos los derechos reservados a FRONT END 1</span></div>
+    </footer>
+</body>
+</html>
