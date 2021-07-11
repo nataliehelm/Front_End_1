@@ -55,7 +55,7 @@ nav div{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 650px;
+    height: 500px;
 }
 #banner p{
     margin: 0;
