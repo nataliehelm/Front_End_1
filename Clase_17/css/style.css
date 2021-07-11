@@ -1,0 +1,325 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: #00669F;
+}
+/* style */
+header #top-bar {
+    background-color: #1CD1B0;
+    padding: 3px 30px 3px;
+}
+header #title {
+    background-color: #00669F;
+    box-shadow: 0 3px 6px gray;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+}
+header #title span {
+    align-self: center;
+    font-size: 30px;
+    padding-left: 10px;
+}
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+}
+#menu {
+    background-color: #001D2D;
+    box-shadow: 0 3px 6px gray;
+    height: 40px;
+    margin: 0;
+}
+#menu li{
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.link-menu{
+    color: white;
+}
+.link-menu:hover {
+    color: #fffff;
+}
+/* main style */
+#cuerpo {
+    display: flex;
+    justify-content: space-around;
+}
+.cuerpo-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.container {
+    margin: auto;
+}
+#cuerpo h1{
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+}
+input[type=text], 
+input[type=password],
+input[type=email],
+select
+{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding: 0px 20px;
+    width: 620px;
+    height: 60px;
+}
+button[type=submit]{
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px 0px;
+    width: 620px;
+}
+input::placeholder {
+    color: #000000;
+}
+.reset-btn,
+.register-btn[type=submit] {
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 300px;
+    margin:15px 10px 0 0;
+    padding: 8px 0px;
+}
+.reset-btn {
+    background-color: #888888;
+}
+.new-account{
+    display: flex;
+    justify-content: center;
+}
+.new-account span{
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+footer {
+    background-color: #00669F;
+    bottom: 0;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 0px;
+    position:fixed;
+    width: 100%;
+}
+.copyright {
+    margin: auto;
+}
+.info-card1 {
+    background-color: #f3f3f3; 
+    box-shadow: 0 6px 10px gray;
+    left: 40px;
+    max-width: 300px;   
+    max-height: 529px; 
+    width: 100%;
+    margin: 20px;
+}
+.card-header {
+    position: relative;
+}
+.heart {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+.card-content {
+    position: relative;
+    height: 336px;
+
+}
+.photo {
+    position: absolute;
+    top: 120px;
+    left: 84px;
+}
+.description {
+    
+    /* max-width: 274px;
+    height: 236px; */
+    padding: 60px 13px 20px;
+    /* position: absolute; */
+    margin: 0;
+}
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.about {
+    position: absolute;
+    /* bottom: 380px; */
+    padding: 0 20px;
+    top: 100px;
+    bottom: 40px;
+}
+.boton {
+    position: absolute;
+    left: 85px;
+    bottom: 30px
+}
+
+.info-card2 {
+    background-color: #f3f3f3; 
+    box-shadow: 0 6px 10px gray;
+    left: 40px;
+    max-width: 300px;   
+    max-height: 529px; 
+    width: 100%;
+    margin: 20px;
+}
+.info-card3 {
+    background-color: #f3f3f3; 
+    box-shadow: 0 6px 10px gray;
+    left: 40px;
+    max-width: 300px;   
+    max-height: 529px; 
+    width: 100%;
+    margin: 20px;
+}
+#add {
+    background-color: #00669F;
+    border-radius: 50px;
+    font-size: 62px;
+    width: 82px;
+    height: 82px;
+    text-align: center;
+    align-self: center;
+}
+#add:hover {
+    background-color: #001D2D;
+    ;
+}
+#add p{
+    margin: 0;
+}
+#add a{
+    color: #ffffff;
+}
+#add-hero {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-around;
+    margin: 60px;
+    text-align: center;
+}
+#add-hero div {
+    background-color: #00669F;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 954px;
+}
+#add-hero div h1{
+    font-size: 40px;
+}
+#add-hero div span {
+    font-size: 20px;
+    font-weight: 300;  
+}
+#formulario-hero {
+    padding-bottom: 20px;
+}
+#formulario-hero label{
+    font-size: 20px;
+}
+.form-flex {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-around;
+}
+.align-left{
+    text-align: left;
+    padding-left: 60px;
+}
+#add-hero input[type="text"],
+input[type="date"],
+select{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 343px;
+    height: 63px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.calendario {
+    position: relative;
+}
+.calendario img {
+    position: absolute;
+    left: 350px;
+    top: 18px;
+}
+#formulario-hero textarea {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 307px;
+    padding: 10px;
+    margin-top: 15px;
+    width: 343px;
+    resize: none;
+}
+#formulario-hero textarea::placeholder {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+#formulario-hero input[type="file"] {
+    
+    width: 343px;
+    height: 63px;
+}
+#formulario-hero input[type="checkbox"] {
+    height: 20px;
+    width: 24px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+#formulario-hero input[type="checkbox"]:checked {
+    background-color: #34CEFF;
+} 
+#formulario-hero hr {
+    border: 1px solid #cccccc;
+    width: 343px;
+}
+#formulario-hero input[type="radio"]{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}
+#añadir {
+    font-size: 40px;
+    padding-top: 20px;
+}
+#añadir button[type="submit"]{
+    font-size: 40px;
+    height: 87px;
+    width: 466px;
+}
+#añadir button[type="submit"]:hover {
+    background-color: #001D2D;
+    color: #ffffff;
+}

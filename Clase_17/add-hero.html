@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
+    <title>Heroes</title>
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <span>20% de descuento en todos los productos!</span>
+        </div>
+        <div id="title">
+            <a href="index.html"><img src="img/logo.png"></a><span>Nombre Tienda</span>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a class="link-menu" href="contacto.html">Contacto</a></li>
+                <li><a class="link-menu" href="registro.html">Registrarme</a></li>
+                <li><a class="link-menu"href="login.html">Ingresar</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="add-hero">
+            <div>
+            <h1>Añadí tu super!</h1>
+            <span>Agregá tu personaje favorito completando las opciones.</span>
+            <form id="formulario-hero" action="" method="POST">
+                <div class="form-flex">
+                    <div>
+                        <p class="align-left"><label for="nombre">*Nombre</label></p>
+                        <p><input type="text" name="nombre" id="nombre" required></p>
+                        <p class="align-left"><label for="fecha">Fecha</label></p>
+                        <p class="calendario" ><input type="date" name="fecha" id="fecha"><img src="img/calendario.png"></p>
+                        <p><textarea placeholder="Descripción"></textarea></p>
+                    </div>
+                    <div>
+                        <p class="align-left"><label for="especie">*Especie</label></p>
+                        <select name="especie" required>
+                            <option value="" disabled selected>Especie</option>
+                            <option value="humano">Humano</option>
+                            <option value="androide">Androide</option>
+                        </select>    
+                        <p class="align-left"><label for="foto">Agregar foto</label></p>
+                        <p><input type="file" name="foto" id="foto" accept=".jpg"></p>
+                        <p class="align-left"><label for="poderes">Poderes</label></p>
+                        <p class="align-left"><input type="checkbox" name="poderes" value="Volar">Volar</p>
+                        <p class="align-left"><input type="checkbox" name="poderes" value="SuperInteligencia">SuperInteligencia</p>
+                        <p class="align-left"><input type="checkbox" name="poderes" value="VistaRayoLaser">Vista de rayo láser</p>
+                        <p class="align-left"><input type="checkbox" name="poderes" value="BilleteraGorda">Billetera gorda</p>
+                        <hr>
+                        <p class="align-left"><label for="tipoPersonaje">Tipo de personaje</label></p>
+                        <p class="align-left"><input type="radio" name="tipoPersonaje" value="heroe">Héroe / Heroina</p>
+                        <p class="align-left"><input type="radio" name="tipoPersonaje" value="villano">Villano / Villana</p>
+                    </div>
+                </div>    
+            <div id="añadir">
+                <button type="submit">Añadir</button>
+            </div>   
+            </form>
+
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright"><span>Todos los derechos reservados a FRONT END 1</span></div>
+    </footer>
+</body>
+</html>
