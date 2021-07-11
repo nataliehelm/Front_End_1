@@ -1,0 +1,254 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 300%;
+}
+h1, h2 {
+    color: #3C2313; 
+}
+h2 {
+    font-size: 200%;
+}
+header {
+    background-color: #000000;
+    padding: 4px 20px 4px 0px;
+    display: none;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.menu {
+    display: none;
+}
+span {
+    color: #ffffff;
+    padding-right: 20px;
+}
+.tabulado {
+    padding-left: 100px;
+}
+.idiomas {
+    display: flex;
+    flex-direction: row;
+}
+.idiomas div {
+    padding-left:15px;
+}
+nav{
+    background-color:#F0A83E; 
+    padding: 20px 15px 40px; 
+}
+nav div{
+    float: right;
+    color: #ffffff;
+    padding-right: 15px;
+    padding-bottom: 13px;
+}
+.logo{
+    float: left;
+    padding-left: 3%;
+}
+.menu-burger{
+    cursor: pointer;
+}
+#banner {
+    display: flex;
+    flex-direction: column;
+}
+#banner p{
+    margin: 0;
+}
+#banner-title {
+    align-self: center;
+    font-size: 25px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #3C2313;
+    margin-top: 160px;
+    padding: 12px;
+    text-align: center;
+    width: 365px;
+}
+#banner-subtitle {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+#banner-subtitle span{
+    color: #3C2313;
+    font-size: 16px;
+}
+#banner-cta {
+    align-self: flex-end;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    margin-right: 55px;
+    margin-bottom: 150px;
+    width: 141px;
+}
+#banner-cta p{
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px;
+    text-align: center;
+}
+#destacados {
+    margin-top: 50px;
+    text-align: center;
+}
+#destacados span{
+    color: #666666;
+    padding-left: 10px;
+}
+#destacados img{
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+#contacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    width: 298px;
+    height: 40px;
+    padding-left: 7px;
+}
+input::placeholder {
+    color: #ffffff;
+}
+.reset-btn {
+    background-color: #8A8787;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 25px;
+    width: 199px;
+}
+.enviar-btn {
+    background-color:#F0A83E;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    height: 45px;
+    margin-top: 25px;
+    width: 199px;
+}
+#newsletter {    
+    margin: 0px;
+    background-color:#F0A83E;
+    font-size: 23px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newsletter p {
+    margin: 10px;
+    padding-left: 10px;
+}
+input.news {
+    background-color: #ffffff;
+    width: 261px;
+}
+input.news::placeholder {
+    color: #666666;
+}
+.suscribir-btn {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px;
+    width: 100px;
+}
+#newsletter div{
+    padding-left: 30px;
+}
+#pie {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+}
+.contacto p{
+    background-color: #8A8787;
+    border: 4px solid #786960;
+    border-radius: 50px;
+    box-sizing: border-box;
+    height: 66px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 8px;
+    width: 66px;
+}
+.detalle {
+    margin-left: 20px;
+}
+.detalle h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.detalle span {
+    color: #8A8787;
+    font-size: 10px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+#pie-derecha {
+    align-self: center;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#copy-right {
+    background-color: #000000;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+@media (max-width: 480px){
+    #banner {
+        background-image: url("../img/fondo.png");
+        background-size: cover;
+    }
+    #pie {
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+    #new
+}
+@media (min-width: 481px){
+    header {
+        display: flex;
+    }
+    .menu-burger {
+        display: none;
+    }
+    #banner {
+        background-image: url("../img/fondo_full.png");
+        background-size: cover;
+    }
+    #banner-title {
+        align-self:flex-end;
+        margin-right: 20px;
+    }
+    #newsletter {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
